@@ -3,8 +3,8 @@ import React from 'react';
 import './index.css';
 
 // type = add | edit | default
-const Button = ({ onClick, type, children }) => (
-    <button onClick={onClick} className={`button ${type}`}>
+const Button = ({ onClick, disabled, type, children }) => (
+    <button onClick={onClick} disabled={disabled} className={`button ${type}`}>
         { children }
     </button>
 );

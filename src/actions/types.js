@@ -1,1 +1,8 @@
-// define action types here...
+export const RECEIVE_ITEMS = 'RECEIVE_ITEMS';
+export const RECEIVE_ITEMS_ERROR = 'RECEIVE_ITEMS_ERROR';
+export const ADD_ITEM = 'ADD_ITEM';
+export const ADD_ITEM_ERROR = 'ADD_ITEM_ERROR';
+export const EDIT_ITEM = 'EDIT_ITEM';
+export const EDIT_ITEM_ERROR = 'EDIT_ITEM_ERROR';
+export const DELETE_ITEM = 'DELETE_ITEM';
+export const DELETE_ITEM_ERROR = 'DELETE_ITEM_ERROR';
