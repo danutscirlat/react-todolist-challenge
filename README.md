@@ -52,3 +52,8 @@ We would like Unit Tests to be written for each of the main components in the ap
 
 ### Submission
 Please commit the application to a new branch, once completed. After doing so, we will review the application and get back to you shortly.
+
+### Developer Notes
+1. Node version used: 8.11.3
+2. Built with a 10% random fail rate for API calls to reproduce the error handlers (change this in src/api/index.js:9)
+3. Check the console as well for the Redux action logs

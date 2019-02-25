@@ -6,7 +6,7 @@ import { ToastsStore } from 'react-toasts';
 import todoList from './todoList.json'
 
 const TIMEOUT = 500;
-const FAIL_MUCH = 0.0; // 1 max success, 0 max fail
+const FAIL_MUCH = 0.9; // 1 max success, 0 max fail
 
 let lastId;
 for (let item of Object.values(todoList)) {
